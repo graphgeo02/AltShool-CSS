@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofia&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../globalCss/style.css">
+    <title>Assignment4</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <ul>
+            <li>
+                <a href="../Assignment1/index.html">Assignment1</a>
+                <a href="../Assignment2/index.html">Assignment2</a>
+                <a href="../Assignment3/index.html">Assignment3</a>
+                <a href="../Assignment4/index.html">Assignment4</a>
+                <a href="../Assisnment5/index.html">Assignment5</a>
+                <a href="../Assignment6/index.html">Assignment6</a>
+            </li>
+        </ul>
+      
+    </nav>
+    <header>
+        <div class="individual-mobile">
+            <img src="./img/Assignment4logo.png" alt="logo" width="" class="logo">
+            <h1>For Individuals</h1>
+            <p>
+               Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere
+            </p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="individual" id="left-wrapper">
+            <img src="./img/Assignment4logo.png" alt="logo" width="" class="logo">
+            <h1>For Individuals</h1>
+            <p>
+                Start benefiting from wellness experience. For companies looking on increasing productivity, and
+                improving organization wellness.
+            </p>
+        </div>
+        <div class="register-form">
+            <form class="form">
+                <div class="row">
+                    <span class="input-box">
+                        <label for="firstname">First Name
+                            <input type="text" name="firstname" id="fristname" required>
+                        </label>
+                    </span>
+
+                    <span class="input-box">
+                        <label for="lastname">Last Name
+                            <input type="text" name="lasttname" id="lastname" data-field-type="lastname"required>
+                        </label>
+                    </span>
+                </div>
+                  
+
+                <div class="row">
+                    <div class="input-box">
+                        <label for="gender">Gender
+                            <select required>
+                                <option value="">Select here</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="DOB">Date of Birth
+                            <input type="date" name="dob" id="dob" placeholder="Select here" required />
+                        </label>
+                    </div>
+                </div>
+
+
+
+
+                <div class="row">
+                    <div class="input-box">
+                        <label for="weight">Weight (KG)
+                            <input type="text" name="weight" id="weight" placeholder=" Enter Weight" required />
+                        </label>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="height">Height (CM)
+                            <input type="text" name="height" id="height" placeholder=" Enter Height" required />
+                        </label>
+                    </div>
+                </div> 
+                  
+              <div class="col">
+                <div class="input-box" id="select">
+                    <label>Activity Level
+                        <select required>
+                            <option value="">Select here</option>
+                            <option value="low">Low</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                        </select>
+                    </label>
+                </div>
+                      
+                <div class="input-box  relative " >
+                    <label for="password">Password
+                        <input type="password" name="password" id="password" required    class="border p-2 w-full pr-10">
+
+                    </label>
+
+                <!-- <button class="show" type="button" id="togglePassword" >
+                    <span>👁️</span>
+                </button> -->
+                    
+                </div>
+                
+             
+                
+              </div>
+              
+                <button type="Submit">Regsiter</button>
+                <p class="terms-desktop" style="opacity: 0.9">
+                    By clicking Register, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy
+                        Policy.</a>
+                </p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p class="terms-mobile">
+            By clicking Regster, you agree to our <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy.</a>
+        </p>
+        <script src="script.js"></script>
+    </footer>
+</body>
+
+</html>

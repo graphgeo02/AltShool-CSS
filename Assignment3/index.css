@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fff;
+
+}
+html{
+ 
+    font-size: 1rem;
+    /* margin: auto; */
+  
+ }
+
+
+
+
+.light {
+  width: 100%;
+  height: 23.875rem;
+  border: 8px;
+  background: #fff;
+  border-bottom: 8px solid grey;
+  
+}
+
+.dark {
+  width: 100%;
+  height: 28.125rem;
+  background: #666666;
+
+}
+
+.light h1 {
+  font-family: Lato;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 38.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-left: 15rem;
+  margin-top: 6rem;
+}
+
+.light p:first-of-type {
+  font-family: Lato;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  max-width: 25rem;
+  max-height: 3.75rem;
+  margin-left: 15rem;
+}
+.light p:nth-of-type(2) {
+  max-width: 26rem;
+  max-height: 3.75rem;
+  margin-left: 15rem;
+  margin-bottom: 4rem;
+  font-family: Lato;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.light span {
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #009966;
+}
+
+.card {
+  position: relative;
+  top: 3rem;
+  margin-left: 15rem;
+  max-width: 50.5vw;
+  height: auto;
+  border-bottom: 8px solid grey;
+  background: #ffffff;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  
+ 
+}
+.dark span{
+position: absolute;
+top: 2%;
+left: -2%;
+background: #FFBF00;
+width: 24.875rem;
+
+border-bottom: 8px solid #CC9900;
+font-family: Lato;
+font-size: 1.5rem;
+font-weight: 800;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+text-align: center;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+word-wrap: break-word;
+white-space: normal;
+}
+.dark p{
+font-family: Lato;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+@media screen and (max-width: 1023px){
+  
+    /* remove the margin left and right of  */
+
+.light, .dark{
+ 
+  margin-left: -15rem;
+}
+.light, .dark{
+ width: inherit;
+
+}
+.light{
+
+margin-bottom: -4rem;
+}
+.card{
+  min-width: fit-content;
+}
+#p-text, #h-text{
+  padding-left: 1rem;
+}
+.dark span {
+width: inherit;
+word-wrap: break-word;
+white-space: normal;
+text-align: left;
+padding-left: 2rem;
+padding-right: 2rem;
+}
+.dark{
+  border-top: 8px solid grey;
+}
+}
+
+@media  screen and (max-width: 767px) {
+  .light{
+    margin-bottom: -5rem ;
+  }
+}

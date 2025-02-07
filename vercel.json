@@ -1,0 +1,11 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/Assignment1/index.html" },
+    { "source": "/assignment1", "destination": "/Assignment1/index.html" },
+    { "source": "/assignment2", "destination": "/Assignment2/index.html" },
+    { "source": "/assignment3", "destination": "/Assignment3/index.html" },
+    { "source": "/assignment4", "destination": "/Assignment4/index.html" },
+    { "source": "/assignment5", "destination": "/Assignment5/index.html" },
+    { "source": "/assignment6", "destination": "/Assignment6/index.html" }
+  ]
+}

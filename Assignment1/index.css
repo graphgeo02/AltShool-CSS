@@ -6,8 +6,9 @@
 
 body{
     background-color: black;
-    font-family: 'Lato', 'Sofia', Arial, Helvetica, sans-serif ;
+    font-family: "Delius", serif ;
     align-content: center;
+    
 }
 
 
@@ -30,12 +31,12 @@ body{
     position: relative;
     left: 45px;
     bottom: 20px;
-    background-color: crimson;
+    background-color: #D90479;
     max-width: 550px;
     height: 100px;
     color: #000;
     border-radius: 5px;
-   
+    font-family: "Delius", serif ;
 }
 .card span{
     position: relative;
@@ -43,10 +44,11 @@ body{
     padding-left: 80px;
     font-size: 60px;
     font-weight: bold;
-    font-family: inter;
+    font-family: "Delius", serif ;
     color: #000;
 }
 .card p{
+    font-family: "Delius", serif ;
     position: relative;
     top: 40px;
     color: black;

@@ -40,7 +40,7 @@ p, h1, h2, h3, h4, h5, h6 {
 body {
   font-family: 'Gilroy-Bold', sans-serif;
 
-  
+  overflow-x: hidden;
   max-width: 100%;
   font-size: 1rem;
   /* overflow: hidden; */

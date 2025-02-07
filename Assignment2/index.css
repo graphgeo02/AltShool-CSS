@@ -8,7 +8,7 @@
 body{
     background-color: rgb(200, 159, 200);
     font-family: 'Lato', 'Sofia', Arial, Helvetica, sans-serif;
-    
+    overflow-x: hidden;
 }
 
 
